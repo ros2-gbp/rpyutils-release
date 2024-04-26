@@ -1,3 +1,26 @@
+## rpyutils (rolling) - 0.5.0-1
+
+The packages in the `rpyutils` repository were released into the `rolling` distro by running `/usr/bin/bloom-release rpyutils --rosdistro rolling --non-interactive` on `Fri, 26 Apr 2024 20:20:44 -0000`
+
+The `rpyutils` package was released.
+
+Version of package(s) in repository `rpyutils`:
+
+- upstream repository: https://github.com/ros2/rpyutils.git
+- release repository: https://github.com/ros2-gbp/rpyutils-release.git
+- rosdistro version: `0.4.1-2`
+- old version: `0.4.1-2`
+- new version: `0.5.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## rpyutils (rolling) - 0.4.1-1
 
 The packages in the `rpyutils` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling rpyutils` on `Mon, 21 Aug 2023 14:29:08 -0000`
