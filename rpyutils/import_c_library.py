@@ -15,13 +15,12 @@
 import importlib
 import os
 from pathlib import Path
-from types import ModuleType
 from typing import Optional
 
 from rpyutils import add_dll_directories_from_env
 
 
-def import_c_library(name: str, package: Optional[str] = None) -> ModuleType:
+def import_c_library(name: str, package: Optional[str] = None):
     """
     Import and return a C extension library using importlib, with consistent error messaging.
 
@@ -42,17 +41,15 @@ def import_c_library(name: str, package: Optional[str] = None) -> ModuleType:
         distro = os.environ.get('ROS_DISTRO', 'rolling')
         if e.path is None:
             import sysconfig
-            config_vars = sysconfig.get_config_var('EXT_SUFFIX')
-            if config_vars:
-                expected_path = Path(__file__).parents[1] / (
-                    name[1:] + config_vars)
+            expected_path = Path(__file__).parents[1] / (
+                name[1:] + sysconfig.get_config_var('EXT_SUFFIX'))
             assert not expected_path.is_file()
-            link = f'https://docs.ros.org/en/{distro}/How-To-Guides/Installation-Troubleshooting.html#import-failing-without-library-present-on-the-system'  # noqa: E501
+            link = f'https://docs.ros.org/en/{distro}/Guides/Installation-Troubleshooting.html#import-failing-without-library-present-on-the-system'  # noqa: E501
             e.msg += \
                 f"\nThe C extension '{expected_path}' isn't present on the " \
                 f"system. Please refer to '{link}' for possible solutions"
         if e.path is not None and os.path.isfile(e.path):
-            link = f'https://docs.ros.org/en/{distro}/How-To-Guides/Installation-Troubleshooting.html#import-failing-even-with-library-present-on-the-system'  # noqa: E501
+            link = 'https://docs.ros.org/en/{distro}/Guides/Installation-Troubleshooting.html#import-failing-even-with-library-present-on-the-system'  # noqa: E501
             e.msg += \
                 f"\nThe C extension '{e.path}' failed to be imported while " \
                 f"being present on the system. Please refer to '{link}' for " \

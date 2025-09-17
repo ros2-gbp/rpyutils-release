@@ -2,35 +2,10 @@
 Changelog for package rpyutils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.6.0 (2024-10-03)
+0.2.2 (2025-09-17)
 ------------------
-* Add types and ament_mypy to rpyutils. (`#12 <https://github.com/ros2/rpyutils/issues/12>`_)
-* Contributors: Michael Carlstrom
-
-0.5.0 (2024-04-26)
-------------------
-
-0.4.1 (2023-08-21)
-------------------
-* correct the URL and f-strings format (`#11 <https://github.com/ros2/rpyutils/issues/11>`_)
-* Contributors: Chen Lihui
-
-0.4.0 (2023-04-28)
-------------------
-
-0.3.2 (2023-02-13)
-------------------
-* [rolling] Update maintainers - 2022-11-07 (`#10 <https://github.com/ros2/rpyutils/issues/10>`_)
-* Contributors: Audrow Nash
-
-0.3.1 (2022-09-13)
-------------------
-* Mirror rolling to master
-* updating maintainer
-* Contributors: Audrow Nash, Dharini Dutia
-
-0.3.0 (2022-05-04)
-------------------
+* fix setuptools deprecations (`#17 <https://github.com/ros2/rpyutils/issues/17>`_) (`#21 <https://github.com/ros2/rpyutils/issues/21>`_)
+* Contributors: mergify[bot]
 
 0.2.1 (2022-03-01)
 ------------------
