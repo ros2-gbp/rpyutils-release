@@ -1,0 +1,72 @@
+ros-humble-rpyutils (0.6.0-1jammy) jammy; urgency=high
+
+  * Add types and ament_mypy to rpyutils. (#12 <https://github.com/ros2/rpyutils/issues/12>)
+  * Contributors: Michael Carlstrom
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Wed, 02 Oct 2024 22:00:00 -0000
+
+ros-humble-rpyutils (0.5.0-1jammy) jammy; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Thu, 25 Apr 2024 22:00:00 -0000
+
+ros-humble-rpyutils (0.4.1-1jammy) jammy; urgency=high
+
+  * correct the URL and f-strings format (#11 <https://github.com/ros2/rpyutils/issues/11>)
+  * Contributors: Chen Lihui
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Sun, 20 Aug 2023 22:00:00 -0000
+
+ros-humble-rpyutils (0.4.0-1jammy) jammy; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Thu, 27 Apr 2023 22:00:00 -0000
+
+ros-humble-rpyutils (0.3.2-1jammy) jammy; urgency=high
+
+  * [rolling] Update maintainers - 2022-11-07 (#10 <https://github.com/ros2/rpyutils/issues/10>)
+  * Contributors: Audrow Nash
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Sun, 12 Feb 2023 23:00:00 -0000
+
+ros-humble-rpyutils (0.3.1-1jammy) jammy; urgency=high
+
+  * Mirror rolling to master
+  * updating maintainer
+  * Contributors: Audrow Nash, Dharini Dutia
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 12 Sep 2022 22:00:00 -0000
+
+ros-humble-rpyutils (0.3.0-1jammy) jammy; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 03 May 2022 22:00:00 -0000
+
+ros-humble-rpyutils (0.2.1-1jammy) jammy; urgency=high
+
+  * Make sure to call abspath when adding Windows DLL directories. (#8 <https://github.com/ros2/rpyutils/issues/8>)
+  * Update troubleshooting links to docs.ros.org (#6 <https://github.com/ros2/rpyutils/issues/6>)
+  * Contributors: Chris Lalancette, Christophe Bedard
+
+ -- Jacob Perron <jacob@openrobotics.org>  Mon, 28 Feb 2022 23:00:00 -0000
+
+ros-humble-rpyutils (0.2.0-1jammy) jammy; urgency=high
+
+  * Create a shared function for importing c libraries (#4 <https://github.com/ros2/rpyutils/issues/4>)
+  * Add pytest.ini so local tests don't display warning (#3 <https://github.com/ros2/rpyutils/issues/3>)
+  * Contributors: Chris Lalancette, Emerson Knapp
+
+ -- Jacob Perron <jacob@openrobotics.org>  Thu, 10 Sep 2020 22:00:00 -0000
+
+ros-humble-rpyutils (0.1.0-1jammy) jammy; urgency=high
+
+  * Add context manager for adding DLL directories to the search path (#2 <https://github.com/ros2/rpyutils/issues/2>)
+  * Add package files and linter tests (#1 <https://github.com/ros2/rpyutils/issues/1>)
+  * Contributors: Jacob Perron
+
+ -- Jacob Perron <jacob@openrobotics.org>  Sun, 17 May 2020 22:00:00 -0000
+
+
