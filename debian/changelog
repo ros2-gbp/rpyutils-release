@@ -1,0 +1,73 @@
+ros-jazzy-rpyutils (0.4.2-1bookworm) bookworm; urgency=high
+
+  * fix setuptools deprecations (#17 <https://github.com/ros2/rpyutils/issues/17>) (#20 <https://github.com/ros2/rpyutils/issues/20>)
+    (cherry picked from commit bfd5a3411727ee902e3d3936c12ebba5545f483a)
+    Co-authored-by: mosfet80 <mailto:10235105+mosfet80@users.noreply.github.com>
+  * Remove CODEOWNERS and mirror-rolling-to-master workflow. (#13 <https://github.com/ros2/rpyutils/issues/13>) (#14 <https://github.com/ros2/rpyutils/issues/14>)
+    They are both outdated and both no longer serving their
+    intended purpose.
+    (cherry picked from commit 824efd64f86b1a6d18d7429a4cd212f9c6594a7e)
+    Co-authored-by: Chris Lalancette <mailto:clalancette@gmail.com>
+  * Contributors: mergify[bot]
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 16 Sep 2025 22:00:00 -0000
+
+ros-jazzy-rpyutils (0.4.1-1bookworm) bookworm; urgency=high
+
+  * correct the URL and f-strings format (#11 <https://github.com/ros2/rpyutils/issues/11>)
+  * Contributors: Chen Lihui
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Sun, 20 Aug 2023 22:00:00 -0000
+
+ros-jazzy-rpyutils (0.4.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Thu, 27 Apr 2023 22:00:00 -0000
+
+ros-jazzy-rpyutils (0.3.2-1bookworm) bookworm; urgency=high
+
+  * [rolling] Update maintainers - 2022-11-07 (#10 <https://github.com/ros2/rpyutils/issues/10>)
+  * Contributors: Audrow Nash
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Sun, 12 Feb 2023 23:00:00 -0000
+
+ros-jazzy-rpyutils (0.3.1-1bookworm) bookworm; urgency=high
+
+  * Mirror rolling to master
+  * updating maintainer
+  * Contributors: Audrow Nash, Dharini Dutia
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 12 Sep 2022 22:00:00 -0000
+
+ros-jazzy-rpyutils (0.3.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 03 May 2022 22:00:00 -0000
+
+ros-jazzy-rpyutils (0.2.1-1bookworm) bookworm; urgency=high
+
+  * Make sure to call abspath when adding Windows DLL directories. (#8 <https://github.com/ros2/rpyutils/issues/8>)
+  * Update troubleshooting links to docs.ros.org (#6 <https://github.com/ros2/rpyutils/issues/6>)
+  * Contributors: Chris Lalancette, Christophe Bedard
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 28 Feb 2022 23:00:00 -0000
+
+ros-jazzy-rpyutils (0.2.0-1bookworm) bookworm; urgency=high
+
+  * Create a shared function for importing c libraries (#4 <https://github.com/ros2/rpyutils/issues/4>)
+  * Add pytest.ini so local tests don't display warning (#3 <https://github.com/ros2/rpyutils/issues/3>)
+  * Contributors: Chris Lalancette, Emerson Knapp
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Thu, 10 Sep 2020 22:00:00 -0000
+
+ros-jazzy-rpyutils (0.1.0-1bookworm) bookworm; urgency=high
+
+  * Add context manager for adding DLL directories to the search path (#2 <https://github.com/ros2/rpyutils/issues/2>)
+  * Add package files and linter tests (#1 <https://github.com/ros2/rpyutils/issues/1>)
+  * Contributors: Jacob Perron
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Sun, 17 May 2020 22:00:00 -0000
+
+
