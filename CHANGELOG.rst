@@ -2,29 +2,17 @@
 Changelog for package rpyutils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.6.3 (2025-09-17)
+0.4.2 (2025-09-17)
 ------------------
-* fix setuptools deprecations (`#17 <https://github.com/ros2/rpyutils/issues/17>`_) (`#19 <https://github.com/ros2/rpyutils/issues/19>`_)
+* fix setuptools deprecations (`#17 <https://github.com/ros2/rpyutils/issues/17>`_) (`#20 <https://github.com/ros2/rpyutils/issues/20>`_)
+  (cherry picked from commit bfd5a3411727ee902e3d3936c12ebba5545f483a)
+  Co-authored-by: mosfet80 <10235105+mosfet80@users.noreply.github.com>
+* Remove CODEOWNERS and mirror-rolling-to-master workflow. (`#13 <https://github.com/ros2/rpyutils/issues/13>`_) (`#14 <https://github.com/ros2/rpyutils/issues/14>`_)
+  They are both outdated and both no longer serving their
+  intended purpose.
+  (cherry picked from commit 824efd64f86b1a6d18d7429a4cd212f9c6594a7e)
+  Co-authored-by: Chris Lalancette <clalancette@gmail.com>
 * Contributors: mergify[bot]
-
-0.6.2 (2025-04-18)
-------------------
-* Add py.typed to Package Data (`#16 <https://github.com/ros2/rpyutils/issues/16>`_)
-* Contributors: Michael Carlstrom
-
-0.6.1 (2024-12-20)
-------------------
-* Add Create py.typed (`#15 <https://github.com/ros2/rpyutils/issues/15>`_)
-* Remove CODEOWNERS and mirror-rolling-to-master workflow. (`#13 <https://github.com/ros2/rpyutils/issues/13>`_)
-* Contributors: Chris Lalancette, Michael Carlstrom
-
-0.6.0 (2024-10-03)
-------------------
-* Add types and ament_mypy to rpyutils. (`#12 <https://github.com/ros2/rpyutils/issues/12>`_)
-* Contributors: Michael Carlstrom
-
-0.5.0 (2024-04-26)
-------------------
 
 0.4.1 (2023-08-21)
 ------------------

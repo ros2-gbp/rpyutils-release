@@ -5,14 +5,13 @@ package_name = 'rpyutils'
 
 setup(
     name=package_name,
-    version='0.6.3',
+    version='0.4.2',
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/' + package_name, ['package.xml']),
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
     ],
-    package_data={'': ['py.typed']},
     maintainer='Dharini Dutia',
     maintainer_email='dharini@openrobotics.org',
     url='https://github.com/ros2/rpyutils',
