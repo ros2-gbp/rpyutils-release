@@ -5,7 +5,7 @@ package_name = 'rpyutils'
 
 setup(
     name=package_name,
-    version='0.4.1',
+    version='0.4.2',
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/' + package_name, ['package.xml']),
@@ -20,7 +20,6 @@ setup(
     classifiers=[
         'Environment :: Console',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python',
     ],
     description='Python utilities for the ROS 2 code base.',
@@ -28,5 +27,9 @@ setup(
         'This package provides types and functions for common operations '
         'throughout the ROS 2 code base.'),
     license='Apache License, Version 2.0',
-    tests_require=['pytest'],
+    extras_require={
+        'test': [
+            'pytest',
+        ],
+    },
 )
