@@ -12,12 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+from pathlib import Path
 import sys
 
+from pytest import MonkeyPatch
 from rpyutils import add_dll_directories_from_env
 
 
-def test_add_dll_directories_from_env(monkeypatch, tmp_path):
+def test_add_dll_directories_from_env(monkeypatch: MonkeyPatch, tmp_path: Path) -> None:
     # Test with empty value
     monkeypatch.delenv('TEST_ENV', raising=False)
     with add_dll_directories_from_env('TEST_ENV') as dlls:
