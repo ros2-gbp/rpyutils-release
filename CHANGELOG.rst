@@ -2,13 +2,10 @@
 Changelog for package rpyutils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.7.1 (2025-07-29)
+0.6.3 (2025-09-17)
 ------------------
-* fix setuptools deprecations (`#17 <https://github.com/ros2/rpyutils/issues/17>`_)
-* Contributors: mosfet80
-
-0.7.0 (2025-04-24)
-------------------
+* fix setuptools deprecations (`#17 <https://github.com/ros2/rpyutils/issues/17>`_) (`#19 <https://github.com/ros2/rpyutils/issues/19>`_)
+* Contributors: mergify[bot]
 
 0.6.2 (2025-04-18)
 ------------------
